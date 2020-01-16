@@ -1,10 +1,10 @@
 # Announcements <h>
 	
 * Attend optional “Ninja Hours”
-* Play around with Homework questions. Exam questions might be variations of Homework questions.
+* Play around with homework questions. Exam questions might be variations of homework questions.
 
 # General Questions <h>
-* Q: Do we always have 2 hws in one week?
+* Q: Do we always have 2 homeworks in one week?
   * A: Sometimes, not always. Sometimes chapters are more complicated, so there may be only one for that week.
 
 * Q: Will we have any practice exams that will be uploaded to the class website?
