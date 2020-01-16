@@ -1,6 +1,7 @@
 # Announcements <h>
-* Attend optional “Ninja Hours.”
-*Play around with Homework questions. Exam questions might be variations of Homework questions.
+	
+* Attend optional “Ninja Hours”
+* Play around with Homework questions. Exam questions might be variations of Homework questions.
 
 # General Questions <h>
 * Q: Do we always have 2 hws in one week?
@@ -28,42 +29,29 @@
     * Explanation: If it had been version with print, an error would have occurred since <br/> we can’t multiply type None by 2.
 
 # New Material <h>
-  * User input gets stored as a string!
+## User Input <h>
+	* User input gets stored as a string!
     * Q: is there a way to limit inputs to only numbers?
 	    * A: For now, we will assume they input a number and we will force it to be a number.
-        ```python
-          num = input("What is your favorite number?")
-          print("you said ", num)
-          num = int(num)        # this forces their input to be type int rather than str
-          print("mine is ", num + 1)
-        ```
+		```python
+		  num = input("What is your favorite number?")
+		  print("you said ", num)
+		  num = int(num)        # this forces their input to be type int rather than str
+		  print("mine is ", num + 1)
+		```
          * If the user were to input a type other than just an integer, for example, a string like "eight" or a float like 8.0, there would be an error
          * > ValueError: invalid literal for int() with base 10: '8.0'
   
+##   Escape Key <h>
   
-  
-  * Note: When typing, you can use the tab key to complete a variable name
-
+```python
 >>> 'O\'Brian said "Pay attention!" '
 'O\'Brian said "Pay attention!" '
+```
+The print function removes the escape characters:
+```python
 >>> print('O\'Brian said "Pay attention!" ')
-O'Brian said "Pay attention!" 
-
-Q: Does it add the space before?
-
-```python
-question = "What is your \
-favorite number? \n \            
-I'm just curious."
-print(question)
+O'Brian said "Pay attention!"
 ```
 
-```python
-question = "What is your \
-favorite number? \n\
-I'm just curious."
-print(question)
-```
-
-Q: “Does indexing loop through?”
-A: ???
+* Note: When typing, you can use the tab key to complete a variable name
