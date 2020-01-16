@@ -30,17 +30,18 @@
 
 # New Material <h>
 ## User Input <h>
-	* User input gets stored as a string!
-    * Q: is there a way to limit inputs to only numbers?
-	    * A: For now, we will assume they input a number and we will force it to be a number.
-		```python
-		  num = input("What is your favorite number?")
-		  print("you said ", num)
-		  num = int(num)        # this forces their input to be type int rather than str
-		  print("mine is ", num + 1)
-		```
-         * If the user were to input a type other than just an integer, for example, a string like "eight" or a float like 8.0, there would be an error
-         * > ValueError: invalid literal for int() with base 10: '8.0'
+* User input gets stored as a string!
+* Q: is there a way to limit inputs to only numbers?
+	* A: For now, we will assume they input a number and we will force it to be a number.
+
+```python
+num = input("What is your favorite number?")
+print("you said ", num)
+num = int(num)        # this forces their input to be type int rather than str
+print("mine is ", num + 1)
+```
+* If the user were to input a type other than just an integer, for example, a string like "eight" or a float like 8.0, there would be an error
+	* > ValueError: invalid literal for int() with base 10: '8.0'
   
 ##   Escape Key <h>
   
